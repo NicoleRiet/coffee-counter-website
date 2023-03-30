@@ -1,0 +1,67 @@
+body {
+    background-image: url("coffee-break.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    height: 100vh;
+}
+
+#counter {
+    width: 500px;
+    margin: 50px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#counter-btns {
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: #38A3A5;
+}
+
+#save-btn {
+    background: #FAA307;
+    margin-top: 5px;
+}
+
+#save-el {
+    color: white;
+    text-shadow: black 1px 0 10px;
+}
+
+#count-el {
+    color: white;
+    text-shadow: black 1px 0 10px;
+}
